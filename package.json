@@ -1,0 +1,43 @@
+{
+  "name": "485-drive-explorer",
+  "version": "1.0.0",
+  "description": "A simple Modbus RTU controller with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "k86",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^24.13.3",
+    "node-gyp": "^11.2.0"
+  },
+  "dependencies": {
+    "modbus-serial": "^8.0.20",
+    "serialport": "latest"
+  },
+  "build": {
+    "appId": "com.k86.driveexplorer",
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "cnt.ico",
+      "publish": null
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "renderer.js",
+      "index.html",
+      "style.css",
+      "node_modules/**/*",
+      "**/*.(png|jpg|jpeg|gif|ico)",
+      "package.json"
+    ]
+  }
+}
