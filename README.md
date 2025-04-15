@@ -23,10 +23,8 @@ Before you can run or develop this application, you will need the following soft
 
 
 ------------------------------------------------------------------------------------------------------
-instruction - lauch on electron
+instruction - lauch on electron (Development Mode)
 ------------------------------------------------------------------------------------------------------
-## Development Mode
-
 To run the application in development mode (requires Node.js and npm installed):
 
 1.  **Clone the repository:**
@@ -51,8 +49,6 @@ This command will launch the Electron application.
 instruction - build portable
 ------------------------------------------------------------------------------------------------------
 
-## Building the Executable
-
 If you want to build the application's executable yourself (requires Node.js and npm installed, as well as native build tools):
 
 1.  **Clone the repository:**
@@ -72,3 +68,12 @@ If you want to build the application's executable yourself (requires Node.js and
     ```
 
     The executable will be created in the `dist` folder. This might be an installer (`.exe` if you configured NSIS) or a portable file (`.exe` if you configured the `portable` target).
+
+
+    --------------------------------------------------------------------------------------------
+
+    ![image](https://github.com/user-attachments/assets/a38ecc90-2e0c-4a18-b343-58e80cae81c1)
+
+![image](https://github.com/user-attachments/assets/1c25fd5a-4682-43ba-8edf-92fd5c7ba19e)
+
+
