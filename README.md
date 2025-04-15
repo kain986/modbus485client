@@ -29,7 +29,7 @@ To run the application in development mode (requires Node.js and npm installed):
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone https://github.com/kain986/modbus485client.git
     cd 485-drive-explorer
     ```
 
@@ -53,7 +53,7 @@ If you want to build the application's executable yourself (requires Node.js and
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone https://github.com/kain986/modbus485client.git
     cd 485-drive-explorer
     ```
 
