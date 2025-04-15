@@ -71,6 +71,8 @@ If you want to build the application's executable yourself (requires Node.js and
 
 
     --------------------------------------------------------------------------------------------
+    ## client screen
+    --------------------------------------------------------------------------------------------
 
     ![image](https://github.com/user-attachments/assets/a38ecc90-2e0c-4a18-b343-58e80cae81c1)
 
