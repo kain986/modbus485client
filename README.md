@@ -6,6 +6,11 @@ so i decided to create my own.
 
 some of the code came out directly from gemini
 
+IF YOU WANT TO DONWLOAD AND TRY DIRECTLY THE EXECUTABLE
+
+https://drive.google.com/file/d/1G8jHgGHeAwB2vRcC0uKRj-JKaRJP_XQO/view?usp=drive_link
+
+
 actual supported features
 
 - modbus 485 RTU only (connection parameter fully editable)
